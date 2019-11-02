@@ -229,10 +229,14 @@ h1 {
 
     .slider .container {
         background-color: #F8F9FA;
+        margin-bottom: 100px;
     }
 
     .jumbotron {
         height: 500px;
     }
 
+    .footer .container {
+        margin-top: 300px !important;
+    }
 }
