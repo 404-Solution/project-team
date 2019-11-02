@@ -54,7 +54,18 @@
     font-size: 112px;
 }
 
+.jumbotron p{
+    color: white !important;
+    font-size: 1.5rem!important;
+}
 
+.jumbotron a{
+    color: white !important;
+    font-size: 1.5rem!important;
+    text-decoration: underline;
+}
+
+/* jumbutron end */
 
 
 
@@ -70,11 +81,6 @@
 p {
     font-family: roboto mono !important;
 }
-
-
-
-
-
 
 h5 {
     font-family: 'abril fatface', sans-serif;
@@ -148,13 +154,13 @@ h1 {
 
 
 /* about html */
-.footer .col-md-3 h1 a{
+.footer .col-md-3 h1 a {
     text-decoration: underline !important;
 }
 
 /* Fix a little */
 
-.text-danger{
+.text-danger {
     color: red;
 }
 
@@ -166,7 +172,14 @@ h1 {
     background-color: rgb(248, 249, 250) !important;
 }
 
+.slash {
+    margin: 0px 5px 0px 5px;
+
+}
+
 /* media query */
+
+
 
 
 
