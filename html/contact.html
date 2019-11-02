@@ -11,11 +11,14 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="../style.css" />
 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
 
     <title>dotray Sollutions</title>
@@ -34,8 +37,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">home<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">about</a>
@@ -47,7 +50,7 @@
                         <a class="nav-link" href="project.html">projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
+                        <a class="nav-link active" href="contact.html">contact</a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +66,9 @@
 
                 <h1 class="display-4 col-md-12">
                     Contact Us
-
+                    <p class="col-md-12">
+                        <a href="../index.html">Home</a><span class="mx-3">/</span> Contact
+                    </p>
                 </h1>
 
             </div>
@@ -77,21 +82,21 @@
             <div class="row mb-5">
                 <div class="col-12 contact-form-contact-info">
                     <div class="row">
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="">
+                        <div class="col-lg-4 " data-aos="fade-up" data-aos-delay="">
                             <p class="d-flex">
-                                <span class="ion-ios-location icon mr-5"></span>
+                                <span class="fas fa-search-location m3 purple mini pr-4"></span>
                                 <span>Jl.Kemang Selatan No 40 Jakarta Selatan, DKI Jakarta, Indonesia</span>
                             </p>
                         </div>
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                             <p class="d-flex">
-                                <span class="ion-ios-telephone icon mr-5"></span>
+                                <span class="fas fa-phone m3 purple mini pr-4"></span>
                                 <span>+62 821 4356 8767</span>
                             </p>
                         </div>
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                             <p class="d-flex">
-                                <span class="ion-android-mail icon mr-5"></span>
+                                <span class="fas fa-mail-bulk m3 purple mini pr-4"></span>
                                 <span>info@dotray.com</span>
                             </p>
                         </div>
@@ -139,22 +144,18 @@
         </div>
     </div>
 
-    <section class="slider">
+    <div class="section bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-center">Testimonial <br><br></h1>
+                    <h1 class="text-center">Testimonials<br><br></h1>
                 </div>
-
-
                 <div class="col-md-6">
-
                     <div class="card card1" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-2 col-sm-2">
-                                <img src="img/p1.jpg" class="card-img rounded-circle"
+                                <img src="..//img/p1.jpg" class="card-img rounded-circle"
                                     style="width: 60px; height: 60px; margin-top: 20px; " alt="...">
-
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="card-body">
@@ -175,7 +176,7 @@
                     <div class="card card1">
                         <div class="row no-gutters">
                             <div class="col-md-2 col-sm-2">
-                                <img src="img/p2.jpg" class="card-img rounded-circle" alt="..."
+                                <img src="../img/p2.jpg" class="card-img rounded-circle" alt="..."
                                     style="width: 60px; height: 60px; margin-top: 20px;">
                             </div>
                             <br>
@@ -193,14 +194,9 @@
                             repudiandae iure dolorem cupiditate, hic laborum perspiciatis maiores quidem
                             quia doloribus ut, enim obcaecati molestias. Culpa.</small></p>
                 </div>
-
             </div>
         </div>
-        </div>
-    </section>
-
-
-
+    </div>
     <section class="footer">
         <div class="container">
             <div class="row">
@@ -225,11 +221,11 @@
                     <a href="about.html">
                         <p>About</p>
                     </a>
-                    <a href="">
+                    <a href="services.html">
                         <p>Services</p>
                     </a>
-                    <a href="">
-                        <p>Portfolio</p>
+                    <a href="project.html">
+                        <p>Projects</p>
                     </a>
                     <a href="">
                         <p>Contact</p>
@@ -238,7 +234,7 @@
 
                 </div>
                 <div class=" col-md-3">
-                    <ul class="list-unstyled footer-link d-flex footer-social">
+                    <ul class="list-unstyled footer-link d-flex  ">
                         <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
                         <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
                         <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
@@ -250,12 +246,14 @@
         <div class="containerr text-center" style="margin-top:50px; margin-bottom: 50px;">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Copyright &copy; All right reserved | This templete is made by dotray team.</p>
+                    <p>Copyright &copy; All right reserved | This template is made with <i
+                            class="fa fa-heart text-danger" aria-hidden="true"></i> by dotray team.</p>
                 </div>
             </div>
         </div>
         </div>
     </section>
+    </div>
 
 
     <!-- Optional JavaScript -->
