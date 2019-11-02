@@ -1,0 +1,227 @@
+/* navbar */
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+
+
+.nav-link {
+    font-size: 14.4px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    height: 680px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 112px;
+}
+
+
+
+
+
+
+.purple {
+    outline-color: black(80, 8, 80);
+    outline-offset: 5em;
+    color: purple;
+    text-shadow: 1px 1px 1px rgb(224, 131, 131);
+    font-size: 4em;
+}
+
+p {
+    font-family: roboto mono !important;
+}
+
+
+
+
+
+
+h5 {
+    font-family: 'abril fatface', sans-serif;
+}
+
+
+
+.text {
+    color: white;
+    font-size: 16px;
+
+}
+
+.card {
+    border: 0px;
+
+}
+
+.img {
+    width: 12px;
+}
+
+.image:hover {
+    box-shadow: 2px 2px 4px black;
+
+}
+
+.slider {
+    background-color: #F8F9FA;
+    margin-top: 100px;
+    font-family: 'abril fatface', sans-serif;
+    height: 600px;
+}
+
+.slider h1 {
+    margin-top: 100px;
+}
+
+.carousel-item img {
+    width: 100px;
+}
+
+.card1 {
+    background-color: #F8F9FA;
+}
+
+.about {
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+
+.started {
+    background-color: #6F42C1;
+    height: 250px;
+    color: white;
+}
+
+.started h1 {
+    font-family: 'abril fatface', sans-serif;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer a {
+    color: black;
+}
+
+
+
+/* media query */
+
+
+
+@media (min-width: 1024px) {
+    .nav-link {
+        text-transform: uppercase;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 20px;
+        color: white !important;
+    }
+
+    .navbar-brand {
+        color: white !important;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        margin-top: 25px;
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); */
+
+    }
+
+    .jumbotron {
+        margin-top: -85px;
+    }
+
+
+
+
+
+}
+
+@media (max-width : 800px) {
+    .navbar {
+        background-color: black;
+    }
+
+    .nav-link {
+        color: white !important;
+        text-transform: uppercase;
+        font-family: 'Roboto Mono', monospace;
+        letter-spacing: 2px;
+
+    }
+
+    .navbar-brand {
+        color: white !important;
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-color: white !important;
+
+    }
+
+    .jumbotron .display-4 {
+        font-size: 48px;
+
+    }
+
+    .img-about {
+        margin-bottom: 30px;
+    }
+
+    .about {
+        margin-top: 200px;
+    }
+
+    .slider .container {
+        background-color: #F8F9FA;
+    }
+
+    .jumbotron {
+        height: 500px;
+    }
+
+}
