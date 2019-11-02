@@ -20,7 +20,7 @@
 .jumbotron {
     background-image: url(img/bg.jpg);
     background-size: cover;
-    height: 680px;
+    height: 650px;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -132,7 +132,7 @@ h5 {
     color: white;
 }
 
-.started h1 {
+h1 {
     font-family: 'abril fatface', sans-serif;
 }
 
@@ -144,6 +144,17 @@ h5 {
     color: black;
 }
 
+
+/* about html */
+.header {
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.header2 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
 
 /* media query */
