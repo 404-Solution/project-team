@@ -54,14 +54,14 @@
     font-size: 112px;
 }
 
-.jumbotron p{
+.jumbotron p {
     color: white !important;
-    font-size: 1.5rem!important;
+    font-size: 1.5rem !important;
 }
 
-.jumbotron a{
+.jumbotron a {
     color: white !important;
-    font-size: 1.5rem!important;
+    font-size: 1.5rem !important;
     text-decoration: underline;
 }
 
@@ -261,4 +261,35 @@ h1 {
     .footer .container {
         margin-top: 300px !important;
     }
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
